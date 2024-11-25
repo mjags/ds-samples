@@ -1,7 +1,10 @@
 ### IntelliJ IDEA ###
-out/
+/out
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+/.idea
+/ds-samples.iml
 
 ### Eclipse ###
 .apt_generated
