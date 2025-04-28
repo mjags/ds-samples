@@ -6,7 +6,7 @@ public class ValidAnagram {
     public static void main(String[] args) {
         ValidAnagram duplicate = new ValidAnagram();
 
-        System.out.println(duplicate.isAnagram("anagram", "nagaram"));
+        // System.out.println(duplicate.isAnagram("anagram", "nagaram"));
         System.out.println(duplicate.isAnagram("car", "rat"));
     }
 
@@ -21,6 +21,7 @@ public class ValidAnagram {
         }
 
         for (int j : count_arr) {
+            System.out.print(j+" ");
             if (j != 0) {
                 return false;
             }
